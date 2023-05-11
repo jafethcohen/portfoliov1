@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Jafeth</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- MENU (ENCABRZADO) -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Jafeth</a>
+        </div>
+        <nav id="nav" >
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()" >HOME</a></li>
+            <li><a href="#aboutme" onclick="seleccionar()" >ABOUT ME</a></li>
+            <li><a href="#skills" onclick="seleccionar()" >SKILLS</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()" >CURRICULUM</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()" >PORTFOLIO</a></li>
+            <li><a href="#contact" onclick="seleccionar()" >CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostraryocultarmenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="/img/hero.png" alt="" />
+        </div>
+        <h1>Jafeth Cohen</h1>
+        <h2>software development technologist - integer developer</h2>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+      <div class="contenido-seccion">
+        <h2>About me</h2>
+        <p>
+          <span>Hi, my name is Jafeth Cohen.</span> Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Tempore consequuntur praesentium
+          suscipit fugit sit nemo obcaecati illo odit exercitationem ea a, autem
+          omnis. Soluta reprehenderit, culpa fugiat officia deleniti sit?
+        </p>
+        <div class="fila">
+          <!-- Personal Info -->
+          <div class="col">
+            <h3>Personal Information</h3>
+            <ul>
+              <li>
+                <strong>BIRTH</strong>
+                09/28/2004
+              </li>
+              <li>
+                <strong>PHONE NUMBER</strong>
+                +57 3126247964
+              </li>
+              <li>
+                <strong>EMAIL</strong>
+                jafethdavidcohenhernandez@gmail.com
+              </li>
+              <li>
+                <strong>WEBSITE</strong>
+                www.taltal.com
+              </li>
+              <li>
+                <strong>JOB TITLE</strong>
+                <span>FREELANCE</span>
+              </li>
+            </ul>
+          </div>
+          <!-- intereses -->
+          <div class="col">
+            <h3>Inrerest</h3>
+            <div class="contenedor-intereses">
+              <div class="intereses">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GAMES</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-camera"></i>
+                <span>PHOTOS</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSIC</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-sharp fa-solid fa-medal"></i>
+                <span>SPORTS</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-plane"></i>
+                <span>TRAVEL</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-sharp fa-solid fa-book"></i>
+                <span>BOOKS</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-solid fa-car"></i>
+                <span>CARS</span>
+              </div>
+              <div class="intereses">
+                <i class="fa-brands fa-windows"></i>
+                <span>WINDOWS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          download curriculum <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Seccion SKILLS  -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>SKILLS</h2>
+        <div class="fila">
+          <!-- Technical SKILLS -->
+          <div class="col">
+            <h3>Technical SKILLS</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Photo & Video edition</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>82%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>AI Managmennt</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>20%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional SKILLS -->
+          <div class="col">
+            <h3>Professional SKILLS</h3>
+            <div class="skill">
+              <span>Comunication</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Teamwork</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creativity</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>performance</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Project Managmennt</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion Curriculum -->
+    <section id="curriculum" class="curriculum">
+      <h2>CURRICULUM</h2>
+      <div class="fila">
+        <div class="col izquierda">
+          <h3>Education</h3>
+          <div class="item izq">
+            <h4>Bachilelrato</h4>
+            <span class="casa">I.E.D Jorge Isaacs</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectori">
+              <div class="circuloi">
+              </div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Bachilelrato</h4>
+            <span class="casa">I.E.D Jorge Isaacs</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectori">
+              <div class="circuloi">
+              </div>
+            </div>
+          </div>
+          <div class="item izq">
+            <h4>Bachilelrato</h4>
+            <span class="casa">I.E.D Jorge Isaacs</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectori">
+              <div class="circuloi">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col derecha">
+          <h3>Expirience</h3>
+          <div class="item der">
+            <h4>Front-end</h4>
+            <span class="casa">Microsoft</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectord">
+              <div class="circulod">
+              </div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Front-end</h4>
+            <span class="casa">Microsoft</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectord">
+              <div class="circulod">
+              </div>
+            </div>
+          </div>
+          <div class="item der">
+            <h4>Front-end</h4>
+            <span class="casa">Microsoft</span>
+            <span class="fecha">2xxx-2xxx</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio harum quae cupiditate, quia officia quisquam nulla non autem distinctio, molestiae quod animi. Animi necessitatibus quas quibusdam id commodi modi facilis!</p>
+            <div class="conectord">
+              <div class="circulod">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seccion portfolio -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galery">
+          <div class="proyecto">
+            <img src="img/p1.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #1</h3>
+              <p>intento de proyecto #1</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p2.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #2</h3>
+              <p>intento de proyecto #2</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p3.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #3</h3>
+              <p>intento de proyecto #3</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p4.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #4</h3>
+              <p>intento de proyecto #4</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p5.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #5</h3>
+              <p>intento de proyecto #5</p>
+            </div>
+          </div>
+          <div class="proyecto">
+            <img src="img/p6.png" alt="">
+            <div class="overlay">
+              <h3>Proyecto #6</h3>
+              <p>intento de proyecto #6</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="contenido-seccion">
+        <h2>CONTACT ME</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Phone numnber">
+            <input type="text" placeholder="EMAIL">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button>
+              Send <i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- mapa -->
+          <div class="col">
+            <img src="img/ubicacion.jpg" alt="">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Colombia Tal Tal Tal
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  +57 3126247964
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: jafethdavidcohenhernandez@gmail.com
+                </li>
+              </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
